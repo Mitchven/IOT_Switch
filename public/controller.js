@@ -1,9 +1,5 @@
 
 var client;
-
-
-
-
 var topicArray = []
 
 $('#btnOn').on('click', function () {
