@@ -1,27 +1,28 @@
 {
-  "name": "mqtt-heroku",
+  "name": "iot_switch",
   "version": "1.0.0",
-  "description": "\"Heroku MQTT\"",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mitchven/MQTT-heroku.git"
+    "url": "git+https://github.com/Mitchven/IOT_Switch.git"
   },
-  "author": "Ma.Lyn Gamboa",
+  "author": "Mars",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mitchven/MQTT-heroku/issues"
+    "url": "https://github.com/Mitchven/IOT_Switch/issues"
   },
-  "homepage": "https://github.com/Mitchven/MQTT-heroku#readme",
+  "homepage": "https://github.com/Mitchven/IOT_Switch#readme",
   "engines": {
     "node": "10.15"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "jquery": "^3.4.1",
-    "package.json": "^2.0.1"
   }
 }
